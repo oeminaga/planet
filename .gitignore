@@ -1,2 +1,5 @@
 a.data
 b.data
+*.tsv
+*.data
+!final.data
