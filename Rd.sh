@@ -1,7 +1,7 @@
 #!/bin/bash
 find . -name amino*.txt
 sort ./amino-acids.txt | uniq | grep ^A
-sort ./amino-acids.txt | uniq | grep ^A wc -l 
+sort ./amino-acids.txt | uniq | grep ^A |wc -l 
 
 git add Rd.sh
 
