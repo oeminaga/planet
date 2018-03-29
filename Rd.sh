@@ -1,5 +1,9 @@
-d = sort amino-acids.txt | uniq | grep A
+#!/bin/bash
+find . -name amino*.txt
+sort ./amino-acids.txt | uniq | grep ^A
+sort ./amino-acids.txt | uniq | grep ^A wc -l 
+
 git add Rd.sh
-wc d
+
 git commit -m "Added Rd.sh"
 git push
